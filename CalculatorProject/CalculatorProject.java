@@ -1,6 +1,8 @@
+package CalculatorProject;
+
 import java.util.Scanner;
 
-public class Calculator {
+public class CalculatorProject {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
