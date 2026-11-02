@@ -20,9 +20,27 @@ public class Main {
         choice = scanner.nextInt();
 
         //option 1 convert lbs to kgs
+        if (choice == 1){
+            System.out.print("Enter the weight in lbs: ");
+            weight = scanner.nextDouble();
+            newWeight = weight * 0.453592;
+            System.out.printf("The new weight in kgs is: %.2f", newWeight);
+        }
 
         //option 2 convert kgs to lbs
+        else if (choice == 2){
+            System.out.print("Enter the weight in kgs: ");
+            weight = scanner.nextDouble();
+            newWeight = weight * 2.20462;
+            System.out.printf("The new weight in lbs is: %.2f", newWeight);
+        }
 
         //if no valid choice made
+
+        else {
+            System.out.println("That was not a valid choice");
+        }
+
+        scanner.close();
     }
 }
