@@ -19,7 +19,7 @@ public class TempConverter {
         newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp * 9 / 5) + 32;
 
         //displaying converted temperature
-        System.out.printf("%.1f %s", newTemp, unit);
+        System.out.printf("%.2f %s", newTemp, unit);
 
         scanner.close();
    } 
