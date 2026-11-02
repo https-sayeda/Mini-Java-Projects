@@ -16,6 +16,8 @@ public class Main {
         System.out.println("2: Convert kgs to lbs");
 
         //prompt for user input
+        System.out.print("Choose an option: ");
+        choice = scanner.nextInt();
 
         //option 1 convert lbs to kgs
 
