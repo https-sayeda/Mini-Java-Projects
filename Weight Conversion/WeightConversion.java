@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class WeightConversion {
     public static void main(String[] args) {
 
         //declaring variables
